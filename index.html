@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>signin/signup</title>
+</head>
+
+<body>
+    <div class="top_button">
+        <button class="  in">登入</a>
+            <button class="active up">註冊</a>
+    </div>
+    <div class="content">
+
+
+        <div class="sign-in ">
+            <div class="form_img">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="form_content">
+                <div class="form_text">
+                    <h1>登入</h1>
+                    <p>E-mail :</p>
+                    <input type="text" name="account" class="account">
+                    <p>密碼 :</p>
+                    <input type="password" name="password" class="password">
+                    <br>
+                    <button class="send send-in">登入</button>
+                    <p class="gotoup">還不是會員嗎? <span>前往註冊</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sign-up ">
+            <div class="form_img">
+                <img src="img/img2.jpg" alt="">
+            </div>
+            <div class="form_content">
+                <div class="form_text">
+                    <h1>註冊</h1>
+                    <p>E-mail :</p>
+                    <input type="text" name="account" class="account_up">
+                    <p class="alert email-alert">Email格式不正確</p>
+                    <p>密碼 :</p>
+                    <input type="password" name="password" class="password_up">
+                    <p class="alert password-alert">密碼需包含至少8個字元且字母及數字至少都要一個</p>
+
+                    <button class=" send send-up">註冊</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="sign-in-fail">
+            <h1 class="welcome">Oops!帳號密碼輸入錯誤</h1>
+            <button class="send-rein">重新登入</button>
+            <button class="send-reup">註冊帳號</button>
+        </div>
+        <div class="sign-in-success">
+            <h1 class="welcome">Welcome !!</h1>
+
+        </div>
+        <div class="sign-up-success">
+            <h1 class="welcome">恭喜你註冊成功</h1>
+            <button class="send-upin">立即登入</button>
+
+        </div>
+        <div class="sign-up-fail">
+            <h1 class="welcome">Oops!此帳號已被使用</h1>
+            <button class="upfail-reup">重新註冊</button>
+            <button class="upfail-rein">登入帳號</button>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
