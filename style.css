@@ -155,7 +155,7 @@ h1.welcome{
     text-align: center;
 }
 
-.sign-in{
+.sign-up{
     display: none;
 }
 .sign-in-fail,.sign-in-success,.sign-up-success,.sign-up-fail{
